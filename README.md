@@ -18,9 +18,9 @@ or run Maven command _mvn spring-boot:run_
 - _application.properties_ file contains _max.digits_ property that define a max length of result value
 
 **Run in Docker**
-./mvnw install dockerfile:build
-cd to root project folder
-docker run -p 8080:8080 -t math/calculator
+- ./mvnw install dockerfile:build
+- cd to root project folder
+- docker run -p 8080:8080 -t math/calculator
 see https://spring.io/guides/gs/spring-boot-docker/
 
 **API Description**
